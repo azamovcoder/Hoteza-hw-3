@@ -1,0 +1,116 @@
+body {
+    background-color: var(--secondaryColor);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
+    z-index: 999;
+    border-bottom: 1.5px solid #E2E3E6;
+   
+}
+
+
+.show__header__shrink {
+    padding: 15px 0;
+    box-shadow: 0px 0px 10px var(--hoverColor);
+    background: var(--secondaryColor);
+    border-bottom: none;
+}
+
+.header__nav__logo img{
+    max-width: 200px;
+}
+
+
+
+
+.header__nav__right__btns__contact {
+    padding: 6px 13px;
+    border: 2px solid var(--primaryColor);
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.4s;
+    color: var(--primaryColor);
+}
+
+.header__nav__right__btns__contact:hover {
+    border-color:var(--primaryColor);
+    background:var(--primaryColor);
+    color:var(--secondaryColor);
+}
+
+
+@media (max-width: 700px) {
+
+
+.header__nav__logo img {
+    max-width: 150px;
+}
+
+.header__nav__right__btns__contact {
+    padding: 6px 13px;
+    border: 2px solid var(--primaryColor);
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.4s;
+    color: var(--primaryColor);
+}
+
+
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+    .header__nav__logo img {
+        max-width: 120px;
+    }
+
+    .header__nav__right__btns__contact {
+        padding: 4px 10px;
+        border: 2px solid var(--primaryColor);
+        background-color: transparent;
+        border-radius: 20px;
+        font-size: 10px;
+        font-weight: 600;
+        transition: 0.4s;
+        color: var(--primaryColor);
+    }
+
+
+
+}
+@media (max-width: 350px) {
+
+
+    .header__nav__logo img {
+        max-width: 100px;
+    }
+
+    .header__nav__right__btns__contact {
+        padding: 4px 10px;
+        border: 2px solid var(--primaryColor);
+        background-color: transparent;
+        border-radius: 20px;
+        font-size: 8px;
+        font-weight: 600;
+        transition: 0.4s;
+        color: var(--primaryColor);
+    }
+
+
+
+}

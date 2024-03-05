@@ -1,0 +1,95 @@
+.phones__title{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.phones__desc{
+    color:  #00000080;
+    text-align: center ;
+}
+
+.phones__cards{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    margin-bottom: 50px;
+}
+
+.phones__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phones__card__img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    background-color: #F1F1F1;
+    border-radius: 25px;
+}
+.phones__card__img img{
+    width: 50%;
+    height: 100%;
+
+}
+
+.phones__card__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.phones__card__title{
+    color: black;
+    font-size: 27px;
+}
+
+.phones__card__desc{
+    color: black;
+    font-size: 18px;
+        text-align: center;
+}
+
+@media screen and (max-width:700px) {
+    .phones__cards {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 100px;
+        }
+}
+
+@media screen and (max-width:500px) {
+   
+
+.phones__card__title{
+    font-size: 20px;
+}
+
+.phones__card__desc{
+    font-size: 14px;
+}
+ 
+}
+
+
+@media screen and (max-width:400px) {
+.phones__title {
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .phones__desc {
+        font-size: 10px;
+    }
+
+  
+
+}

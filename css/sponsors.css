@@ -1,0 +1,109 @@
+.sponsors{
+    margin-top: 50px;
+}
+
+.sponsors__title{
+font-size: 52px;
+font-weight: 600;
+text-align: center;
+}
+
+.sponsors__desc{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        color:  #00000080;
+        padding-bottom: 50px;
+}
+.sponsors__logoes{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.sponsors__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1100px) {
+    .sponsors__logoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 30px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+}
+
+
+@media screen and (max-width:900px) {
+    .sponsors__logoes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        grid-gap: 30px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .sponsors__title {
+            font-size: 42px;
+        }
+    
+        .sponsors__desc {
+            font-size: 16px;
+            padding-bottom: 40px;
+        }
+    .sponsors__logoes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        grid-gap: 10px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .sponsors__title {
+            font-size: 32px;
+        }
+    
+        .sponsors__desc {
+            font-size: 14px;
+            padding-bottom: 40px;
+        }
+}
+
+
+
+@media screen and (max-width:450px) {
+.sponsors__title {
+        font-size: 22px;
+    }
+
+    .sponsors__desc {
+        font-size: 8px;
+        padding-bottom: 40px;
+    }
+
+    .sponsors__logoes {
+        display: grid;
+        grid-template-columns:  1fr;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
